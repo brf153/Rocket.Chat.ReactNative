@@ -38,6 +38,15 @@ export default StyleSheet.create({
 		// @ts-ignore
 		...StyleSheet.absoluteFill
 	},
+	checkingView: {
+		display: 'flex',
+		flexDirection: 'row'
+	},
+
+	dropdownAdditionalItemButton: {
+		height: 46,
+		justifyContent: 'center'
+	},
 	dropdownContainerHeader: {
 		height: 46,
 		borderBottomWidth: StyleSheet.hairlineWidth,
@@ -45,6 +54,7 @@ export default StyleSheet.create({
 		flexDirection: 'row'
 	},
 	dropdownItemButton: {
+		flex: 1.5,
 		height: 46,
 		justifyContent: 'center'
 	},
